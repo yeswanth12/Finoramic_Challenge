@@ -20,7 +20,7 @@ int Solution::threeSumClosest(vector<int> &A, int B) {
         while (left < right) {
             // sum stores the sum of 
             // three numbers
-           int sum = A[i] + A[l] + A[r];
+           int sum = A[i] + A[left] + A[right];
             // if difference is less than min 
             // update ans with sum and min with difference
             if (abs(sum-B)<min) {
