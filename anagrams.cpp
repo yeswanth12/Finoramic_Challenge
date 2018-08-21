@@ -1,3 +1,8 @@
+Given an array of strings, return all groups of strings that are anagrams. 
+Represent a group by a list of integers representing the index in the original list. 
+
+    
+----------------------------------****------------------------------------------------------
 // function to tell whether strings are anagrams
 bool areAnagram(string str1, string str2)
 {
