@@ -1,4 +1,4 @@
-import r
+import re
 # opens the json file
 file = open("example-requirements.json", "r") 
 req = file.read()
